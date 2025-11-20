@@ -82,7 +82,10 @@ CX="SEU_SEARCH_ENGINE_ID_AQUI"
 
 ### **Modo básico**
 ```bash
-./osint-busca.sh site.com pdf
+chmod +x MetaDoc.sh
+```
+```bash
+./MetaDoc.sh site.com pdf
 ```
 
 Onde:
@@ -105,7 +108,7 @@ site:site.com filetype:pdf
 ## 💡 Exemplo de Uso
 
 ```bash
-./osint-busca.sh governo.br docx
+./MetaDoc.sh governo.br docx
 ```
 
 A ferramenta irá:
